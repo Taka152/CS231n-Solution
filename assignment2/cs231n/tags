@@ -1,0 +1,102 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+FullyConnectedNet	classifiers/fc_net.py	/^class FullyConnectedNet(object):$/;"	kind:class	line:124
+Solver	solver.py	/^class Solver(object):$/;"	kind:class	line:6
+ThreeLayerConvNet	classifiers/cnn.py	/^class ThreeLayerConvNet(object):$/;"	kind:class	line:8
+TwoLayerNet	classifiers/fc_net.py	/^class TwoLayerNet(object):$/;"	kind:class	line:7
+__init__	classifiers/cnn.py	/^  def __init__(self, input_dim=(3, 32, 32), num_filters=32, filter_size=7,$/;"	kind:member	line:19
+__init__	classifiers/fc_net.py	/^  def __init__(self, hidden_dims, input_dim=3*32*32, num_classes=10,$/;"	kind:member	line:140
+__init__	classifiers/fc_net.py	/^  def __init__(self, input_dim=3*32*32, hidden_dim=100, num_classes=10,$/;"	kind:member	line:23
+__init__	solver.py	/^  def __init__(self, model, data, **kwargs):$/;"	kind:member	line:74
+__init__.py	__init__.py	1;"	kind:file	line:1
+__init__.py	classifiers/__init__.py	1;"	kind:file	line:1
+_reset	solver.py	/^  def _reset(self):$/;"	kind:member	line:133
+_step	solver.py	/^  def _step(self):$/;"	kind:member	line:153
+abr_backward	classifiers/fc_net.py	/^    def abr_backward(dout, cache):$/;"	kind:function	line:267
+abr_forward	classifiers/fc_net.py	/^    def abr_forward(x, w, b, gamma, beta, bn_param):$/;"	kind:function	line:260
+adam	optim.py	/^def adam(x, dx, config=None):$/;"	kind:function	line:126
+affine_backward	layers.py	/^def affine_backward(dout, cache):$/;"	kind:function	line:38
+affine_forward	layers.py	/^def affine_forward(x, w, b):$/;"	kind:function	line:4
+affine_relu_backward	layer_utils.py	/^def affine_relu_backward(dout, cache):$/;"	kind:function	line:23
+affine_relu_forward	layer_utils.py	/^def affine_relu_forward(x, w, b):$/;"	kind:function	line:5
+batchnorm_backward	layers.py	/^def batchnorm_backward(dout, cache):$/;"	kind:function	line:217
+batchnorm_backward_alt	layers.py	/^def batchnorm_backward_alt(dout, cache):$/;"	kind:function	line:264
+batchnorm_forward	layers.py	/^def batchnorm_forward(x, gamma, beta, bn_param):$/;"	kind:function	line:118
+check_accuracy	solver.py	/^  def check_accuracy(self, X, y, num_samples=None, batch_size=100):$/;"	kind:member	line:177
+cnn.py	classifiers/cnn.py	1;"	kind:file	line:1
+col2im_6d_cython	im2col_cython.pyx	/^def col2im_6d_cython(np.ndarray[DTYPE_t, ndim=6] cols, int N, int C, int H, int W,$/;"	kind:function	line:109
+col2im_6d_cython_inner	im2col_cython.pyx	/^cdef col2im_6d_cython_inner(np.ndarray[DTYPE_t, ndim=6] cols,$/;"	kind:function	line:94
+col2im_cython	im2col_cython.pyx	/^def col2im_cython(np.ndarray[DTYPE_t, ndim=2] cols, int N, int C, int H, int W,$/;"	kind:function	line:57
+col2im_cython_inner	im2col_cython.pyx	/^cdef int col2im_cython_inner(np.ndarray[DTYPE_t, ndim=2] cols,$/;"	kind:function	line:75
+col2im_indices	im2col.py	/^def col2im_indices(cols, x_shape, field_height=3, field_width=3, padding=1,$/;"	kind:function	line:40
+conv_backward_fast	fast_layers.py	/^conv_backward_fast = conv_backward_strides$/;"	kind:variable	line:129
+conv_backward_im2col	fast_layers.py	/^def conv_backward_im2col(dout, cache):$/;"	kind:function	line:106
+conv_backward_naive	layers.py	/^def conv_backward_naive(dout, cache):$/;"	kind:function	line:430
+conv_backward_strides	fast_layers.py	/^def conv_backward_strides(dout, cache):$/;"	kind:function	line:86
+conv_forward_fast	fast_layers.py	/^conv_forward_fast = conv_forward_strides$/;"	kind:variable	line:128
+conv_forward_im2col	fast_layers.py	/^def conv_forward_im2col(x, w, b, conv_param):$/;"	kind:function	line:13
+conv_forward_naive	layers.py	/^def conv_forward_naive(x, w, b, conv_param):$/;"	kind:function	line:394
+conv_forward_strides	fast_layers.py	/^def conv_forward_strides(x, w, b, conv_param):$/;"	kind:function	line:42
+conv_relu_backward	layer_utils.py	/^def conv_relu_backward(dout, cache):$/;"	kind:function	line:54
+conv_relu_forward	layer_utils.py	/^def conv_relu_forward(x, w, b, conv_param):$/;"	kind:function	line:36
+conv_relu_pool_backward	layer_utils.py	/^def conv_relu_pool_backward(dout, cache):$/;"	kind:function	line:84
+conv_relu_pool_forward	layer_utils.py	/^def conv_relu_pool_forward(x, w, b, conv_param, pool_param):$/;"	kind:function	line:64
+data_utils.py	data_utils.py	1;"	kind:file	line:1
+dropout_backward	layers.py	/^def dropout_backward(dout, cache):$/;"	kind:function	line:366
+dropout_forward	layers.py	/^def dropout_forward(x, dropout_param):$/;"	kind:function	line:311
+eval_numerical_gradient	gradient_check.py	/^def eval_numerical_gradient(f, x, verbose=True, h=0.00001):$/;"	kind:function	line:4
+eval_numerical_gradient_array	gradient_check.py	/^def eval_numerical_gradient_array(f, x, df, h=1e-5):$/;"	kind:function	line:35
+eval_numerical_gradient_blobs	gradient_check.py	/^def eval_numerical_gradient_blobs(f, inputs, output, h=1e-5):$/;"	kind:function	line:57
+eval_numerical_gradient_net	gradient_check.py	/^def eval_numerical_gradient_net(net, inputs, output, h=1e-5):$/;"	kind:function	line:99
+ext_modules	setup.py	/^    ext_modules = cythonize(extensions),$/;"	kind:variable	line:13
+extensions	setup.py	/^extensions = [$/;"	kind:variable	line:6
+fast_layers.py	fast_layers.py	1;"	kind:file	line:1
+fc_net.py	classifiers/fc_net.py	1;"	kind:file	line:1
+get_CIFAR10_data	data_utils.py	/^def get_CIFAR10_data(num_training=49000, num_validation=1000, num_test=1000):$/;"	kind:function	line:32
+get_im2col_indices	im2col.py	/^def get_im2col_indices(x_shape, field_height, field_width, padding=1, stride=1):$/;"	kind:function	line:4
+grad_check_sparse	gradient_check.py	/^def grad_check_sparse(f, x, analytic_grad, num_checks=10, h=1e-5):$/;"	kind:function	line:104
+gradient_check.py	gradient_check.py	1;"	kind:file	line:1
+im2col.py	im2col.py	1;"	kind:file	line:1
+im2col_cython	im2col_cython.pyx	/^def im2col_cython(np.ndarray[DTYPE_t, ndim=4] x, int field_height,$/;"	kind:function	line:12
+im2col_cython.pyx	im2col_cython.pyx	1;"	kind:file	line:1
+im2col_cython_inner	im2col_cython.pyx	/^cdef int im2col_cython_inner(np.ndarray[DTYPE_t, ndim=2] cols,$/;"	kind:function	line:39
+im2col_indices	im2col.py	/^def im2col_indices(x, field_height, field_width, padding=1, stride=1):$/;"	kind:function	line:25
+include_dirs	setup.py	/^            include_dirs = [numpy.get_include()]$/;"	kind:variable	line:8
+layer_utils.py	layer_utils.py	1;"	kind:file	line:1
+layers.py	layers.py	1;"	kind:file	line:1
+load_CIFAR10	data_utils.py	/^def load_CIFAR10(ROOT):$/;"	kind:function	line:16
+load_CIFAR_batch	data_utils.py	/^def load_CIFAR_batch(filename):$/;"	kind:function	line:6
+load_models	data_utils.py	/^def load_models(models_dir):$/;"	kind:function	line:179
+load_tiny_imagenet	data_utils.py	/^def load_tiny_imagenet(path, dtype=np.float32):$/;"	kind:function	line:72
+loss	classifiers/cnn.py	/^  def loss(self, X, y=None):$/;"	kind:member	line:59
+loss	classifiers/fc_net.py	/^  def loss(self, X, y=None):$/;"	kind:member	line:229
+loss	classifiers/fc_net.py	/^  def loss(self, X, y=None):$/;"	kind:member	line:59
+max_pool_backward_fast	fast_layers.py	/^def max_pool_backward_fast(dout, cache):$/;"	kind:function	line:156
+max_pool_backward_im2col	fast_layers.py	/^def max_pool_backward_im2col(dout, cache):$/;"	kind:function	line:251
+max_pool_backward_naive	layers.py	/^def max_pool_backward_naive(dout, cache):$/;"	kind:function	line:481
+max_pool_backward_reshape	fast_layers.py	/^def max_pool_backward_reshape(dout, cache):$/;"	kind:function	line:193
+max_pool_forward_fast	fast_layers.py	/^def max_pool_forward_fast(x, pool_param):$/;"	kind:function	line:132
+max_pool_forward_im2col	fast_layers.py	/^def max_pool_forward_im2col(x, pool_param):$/;"	kind:function	line:224
+max_pool_forward_naive	layers.py	/^def max_pool_forward_naive(x, pool_param):$/;"	kind:function	line:454
+max_pool_forward_reshape	fast_layers.py	/^def max_pool_forward_reshape(x, pool_param):$/;"	kind:function	line:172
+optim.py	optim.py	1;"	kind:file	line:1
+relu_backward	layers.py	/^def relu_backward(dout, cache):$/;"	kind:function	line:94
+relu_forward	layers.py	/^def relu_forward(x):$/;"	kind:function	line:69
+rmsprop	optim.py	/^def rmsprop(x, dx, config=None):$/;"	kind:function	line:83
+setup.py	setup.py	1;"	kind:file	line:1
+sgd	optim.py	/^def sgd(w, dw, config=None):$/;"	kind:function	line:33
+sgd_momentum	optim.py	/^def sgd_momentum(w, dw, config=None):$/;"	kind:function	line:47
+softmax_loss	layers.py	/^def softmax_loss(x, y):$/;"	kind:function	line:599
+solver.py	solver.py	1;"	kind:file	line:1
+spatial_batchnorm_backward	layers.py	/^def spatial_batchnorm_backward(dout, cache):$/;"	kind:function	line:542
+spatial_batchnorm_forward	layers.py	/^def spatial_batchnorm_forward(x, gamma, beta, bn_param):$/;"	kind:function	line:503
+svm_loss	layers.py	/^def svm_loss(x, y):$/;"	kind:function	line:572
+train	solver.py	/^  def train(self):$/;"	kind:member	line:218
+vis_grid	vis_utils.py	/^def vis_grid(Xs):$/;"	kind:function	line:38
+vis_nn	vis_utils.py	/^def vis_nn(rows):$/;"	kind:function	line:56
+vis_utils.py	vis_utils.py	1;"	kind:file	line:1
+visualize_grid	vis_utils.py	/^def visualize_grid(Xs, ubound=255.0, padding=1):$/;"	kind:function	line:4
