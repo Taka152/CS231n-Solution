@@ -1,0 +1,7 @@
+*.JPEG
+*.jpg
+*.txt
+tiny-imagenet-100-A/
+tiny-imagenet-100-B/
+coco_captioning/
+*.h5
